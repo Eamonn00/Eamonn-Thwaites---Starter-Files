@@ -18,11 +18,11 @@
         <?php
             require_once 'connect.php';
 
-            $sql = "SELECT * FROM songs, artist WHERE songs.ArtistID = artist.ID";
+            $sql = "SELECT * FROM mcdonalds_details, categories WHERE mcdonalds_details.CategoryID = categories.CategoryID";
 
             $result = $conn->query($sql);
 
-            echo '<h1 class="musicHeading">Music List</h1>';
+            echo '<h1 class="musicHeading">Item List</h1>';
 
             echo '<section id="musicList">';
                 
