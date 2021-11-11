@@ -1,5 +1,5 @@
 <footer>
-        <p class="centre">© 2019 LearnCoach.</p>
+        <p class="centre">© 2019 LearnCoachs.</p>
     </footer>
 
 </body>
