@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Digital Media. Intermediate Websites</title>
+    <title>McDonalds Nutrition</title>
 </head>
 
 <body>
 
     <header>
-        <figure><img src="images/lc.jpg" width="200"></figure>
-        <h1>Digital Media. Intermediate Websites</h1>
+        
+        <h1>McDonalds Nutrition</h1>
     </header>

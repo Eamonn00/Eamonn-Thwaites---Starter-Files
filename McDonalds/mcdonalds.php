@@ -7,7 +7,7 @@
             
         <div id="menuItems">
             <p><a class="active" href="index.php">Home</a></p>
-            <p><a href="mcdonalds.php">McDonalds</a></p>
+            <p><a href="mcdonalds.php">Nutrition</a></p>
         </div>
 
     </nav>
