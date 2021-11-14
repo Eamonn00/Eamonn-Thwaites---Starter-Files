@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren|Quicksand|Shadows+Into+Light&display=swap');
+@import url('../fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css');
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'McLaren', cursive;
+    color: black;
+}
+
+h2 {
+    font-family: 'McLaren', cursive;
+    color: #1a292b;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #D2FDFF;
+}
+
+header img {
+    max-width: 100%;
+    ;
+}
+
+header figure {
+    max-width: 30%;
+}
+
+header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: inherit;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    background: #303C6C;
+    border-top: solid black thin;
+    box-shadow: 0px -2px #888;
+}
+
+.content {
+    margin: 0 1em 5em 1em;
+    margin-bottom: 100px;
+}
+
+.centre {
+    color: #fff;
+    text-align: center;
+}
+
+.float {
+    float: right;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.italics {
+    font-style: italic;
+}
+
+img.listImg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    background: #303C6C;
+    border-top: solid black thin;
+    border-bottom: solid black thin;
+    box-shadow: 0px 2px #888;
+}
+
+#menuItems {
+    display: flex;
+    flex-basis: 100%;
+    background: #303C6C;
+    border-top: solid black thin;
+    border-bottom: solid black thin;
+    box-shadow: 0px 2px #888;
+}
+
+nav p {
+    flex: 1 1 100px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+#navCheck {
+    display: none;
+}
+
+nav label {
+    display: none;
+}
+
+.musicHeading {
+    display: inline-block;
+    width: 70%;
+}
+
+#musicList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#title {
+    color: blue;
+    font-weight: bold;
+}
+
+#musicList article {
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background: #eee;
+    margin: 1em;
+    padding: 1em;
+    border: solid black thin;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #777
+}
