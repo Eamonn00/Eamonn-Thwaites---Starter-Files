@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-family: 'McLaren', cursive;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 header {
     display: flex;
     align-items: center;
-    background: #D2FDFF;
+    background: #9b1d06;
 }
 
 header img {
@@ -34,7 +34,7 @@ header h1 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 400%;
     font-weight: lighter;
-    color: inherit;
+    color: rgb(213, 228, 8);
 }
 
 footer {
@@ -129,7 +129,7 @@ nav label {
 }
 
 #title {
-    color: blue;
+    color: rgb(150, 25, 25);
     font-weight: bold;
 }
 
@@ -137,7 +137,7 @@ nav label {
     flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 0;
-    background: #eee;
+    background: rgb(207, 207, 207);
     margin: 1em;
     padding: 1em;
     border: solid black thin;
